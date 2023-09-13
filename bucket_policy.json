@@ -4,14 +4,14 @@
       {
           "Effect": "Allow",
           "Principal": {
-              "AWS": "arn:aws:iam::aws1-account-number:role/your-role-name-in-aws1"
+              "AWS": "arn:aws:iam::664204324162:role/Role1"
           },
           "Action": [
               "s3:GetObject",
               "s3:PutObject",
               "s3:PutObjectAcl"
           ],
-          "Resource": "arn:aws:s3:::your-bucket-name/*"
+          "Resource": "arn:aws:s3:::pavan18/*"
       }
   ]
 }
