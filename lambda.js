@@ -6,7 +6,7 @@ AWS.config.update({
 const s3 = new AWS.S3();
 
 exports.handler = async () => {
-  const fileContent = 'hellooooo, this is testing';
+  const fileContent = 'helloooo, this is testing';
   const params = {
     Bucket: 'your-bucket-name',
     Key: 'data/test.txt',
