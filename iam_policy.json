@@ -8,7 +8,7 @@
               "s3:PutObject",
               "s3:PutObjectAcl"
           ],
-          "Resource": "arn:aws:s3:::your-bucket-name/*"
+          "Resource": "arn:aws:s3:::pavan18/*"
       }
   ]
 }
